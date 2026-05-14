@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ARCTIZ 板材大師
 
-# Run and deploy your AI Studio app
+「ARCTIZ 板材大師」是高端家具板材與室內裝飾材料的領先品牌。品牌致力於將極致工藝與永續環保結合，為現代室內設計提供兼具耐用性與視覺美感的板材解決方案。
 
-This contains everything you need to run your app locally.
+## 本地開發指南
 
-View your app in AI Studio: https://ai.studio/apps/b923edc7-dc39-4866-ad96-a830761bd647
+### 系統需求
+- Node.js (建議 v20 或以上版本)
 
-## Run Locally
+### 安裝步驟
 
-**Prerequisites:**  Node.js
+1. 安裝依賴套件：
+   ```bash
+   npm install
+   ```
 
+2. 啟動開發伺服器：
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. 建立生產版本打包：
+   ```bash
+   npm run build
+   ```
+
+## 自動部署 (GitHub Pages)
+
+本專案已設定 GitHub Actions 工作流程。當程式碼推送至 `main` 分支時，系統將會自動進行打包編譯，並發布至 GitHub Pages 環境。

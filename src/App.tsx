@@ -10,7 +10,7 @@ export default function App() {
       <nav className="flex items-center justify-between px-6 py-8 md:px-16 border-b border-stone-100">
         <a href="#" className="flex items-center gap-4">
           <span className="text-3xl font-serif font-semibold tracking-tighter">ARCTIZ</span>
-          <img src="/images/ARCTIZ.jpg" alt="ARCTIZ" className="h-[60px] md:h-[80px] w-auto mix-blend-multiply" />
+          <img src="./images/ARCTIZ.jpg" alt="ARCTIZ" className="h-[60px] md:h-[80px] w-auto mix-blend-multiply" />
         </a>
         
         {/* Desktop Nav */}
@@ -62,7 +62,7 @@ export default function App() {
         </div>
         <div className="w-full md:w-7/12 h-[50vh] md:h-auto">
           <img 
-            src="/images/Cabinetry/small-kitchen-space-with-modern-design 1.png" 
+            src="./images/Cabinetry/small-kitchen-space-with-modern-design 1.png" 
             alt="Modern Wood Kitchen" 
             className="w-full h-full object-cover"
           />
@@ -73,25 +73,25 @@ export default function App() {
       <section className="grid grid-cols-1 md:grid-cols-2">
         {/* Category 1 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="/images/Cabinetry/1.png" alt="Dining Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="./images/Cabinetry/1.png" alt="Dining Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
         </div>
 
         {/* Category 2 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="/images/Cabinetry/3.png" alt="Bedroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="./images/Cabinetry/3.png" alt="Bedroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
         </div>
 
         {/* Category 3 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="/images/Cabinetry/6.png" alt="Kitchen" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="./images/Cabinetry/6.png" alt="Kitchen" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
         </div>
 
         {/* Category 4 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="/images/Cabinetry/7.png" alt="Bathroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="./images/Cabinetry/7.png" alt="Bathroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
         </div>
       </section>
@@ -115,11 +115,11 @@ export default function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 items-end">
           <div className="relative group aspect-[4/5] overflow-hidden">
-            <img src="/images/138cea.jpg" alt="Classic" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="./images/138cea.jpg" alt="Classic" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
           </div>
           <div className="relative group aspect-square overflow-hidden md:-mb-10">
-            <img src="/images/882faa.jpg" alt="Transitional" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="./images/882faa.jpg" alt="Transitional" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
           </div>
           <div className="relative group aspect-[4/5] overflow-hidden">
@@ -162,23 +162,23 @@ export default function App() {
         {/* Materials */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center text-sm font-medium">
           <div className="flex flex-col items-center gap-4">
-            <img src="/images/group/Group 2.png" alt="Natural Birch" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
+            <img src="./images/group/Group 2.png" alt="Natural Birch" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
             <span>天然樺木</span>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src="/images/group/Group 3.png" alt="Natural Oak" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
+            <img src="./images/group/Group 3.png" alt="Natural Oak" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
             <span>天然橡木</span>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src="/images/group/Group 4.png" alt="Smoked Oak" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
+            <img src="./images/group/Group 4.png" alt="Smoked Oak" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
             <span>煙燻橡木</span>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src="/images/group/Group 5.png" alt="Bog Oak" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
+            <img src="./images/group/Group 5.png" alt="Bog Oak" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
             <span>沼澤橡木</span>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src="/images/group/Group 6.png" alt="American Walnut" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
+            <img src="./images/group/Group 6.png" alt="American Walnut" className="w-32 h-32 object-cover rounded-sm shadow-sm" />
             <span>美國核桃木</span>
           </div>
         </div>
