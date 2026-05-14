@@ -8,9 +8,10 @@ export default function App() {
     <div className="font-sans text-stone-900 bg-white selection:bg-stone-200">
       {/* Navbar */}
       <nav className="flex items-center justify-between px-6 py-8 md:px-16 border-b border-stone-100">
-        <div className="text-3xl font-serif font-semibold tracking-tighter">
-          ARCTIZ
-        </div>
+        <a href="#" className="flex items-center gap-4">
+          <span className="text-3xl font-serif font-semibold tracking-tighter">ARCTIZ</span>
+          <img src="/images/ARCTIZ.jpg" alt="ARCTIZ" className="h-[60px] md:h-[80px] w-auto mix-blend-multiply" />
+        </a>
         
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
@@ -61,7 +62,7 @@ export default function App() {
         </div>
         <div className="w-full md:w-7/12 h-[50vh] md:h-auto">
           <img 
-            src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop" 
+            src="/images/Cabinetry/small-kitchen-space-with-modern-design 1.png" 
             alt="Modern Wood Kitchen" 
             className="w-full h-full object-cover"
           />
@@ -72,58 +73,26 @@ export default function App() {
       <section className="grid grid-cols-1 md:grid-cols-2">
         {/* Category 1 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="https://images.unsplash.com/photo-1617806118233-18e1c0945594?q=80&w=2070&auto=format&fit=crop" alt="Dining Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/images/Cabinetry/1.png" alt="Dining Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
-          <div className="absolute top-10 left-10 text-white">
-            <h3 className="text-2xl tracking-widest mb-2 uppercase">餐廳</h3>
-            <p className="text-sm font-light">個人化設計，傳統工藝打造</p>
-          </div>
-          <div className="absolute bottom-10 left-10 text-white flex items-center space-x-2 text-xs tracking-widest group-hover:pl-2 transition-all">
-            <span>探索</span>
-            <ArrowRight className="w-4 h-4" />
-          </div>
         </div>
 
         {/* Category 2 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=2070&auto=format&fit=crop" alt="Bedroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/images/Cabinetry/3.png" alt="Bedroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
-          <div className="absolute top-10 left-10 text-white">
-            <h3 className="text-2xl tracking-widest mb-2 uppercase">臥室</h3>
-            <p className="text-sm font-light">個人化設計，傳統工藝打造</p>
-          </div>
-          <div className="absolute bottom-10 left-10 text-white flex items-center space-x-2 text-xs tracking-widest group-hover:pl-2 transition-all">
-            <span>探索</span>
-            <ArrowRight className="w-4 h-4" />
-          </div>
         </div>
 
         {/* Category 3 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop" alt="Kitchen" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/images/Cabinetry/6.png" alt="Kitchen" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
-          <div className="absolute top-10 left-10 text-white">
-            <h3 className="text-2xl tracking-widest mb-2 uppercase">廚房</h3>
-            <p className="text-sm font-light">個人化設計，傳統工藝打造</p>
-          </div>
-          <div className="absolute bottom-10 left-10 text-white flex items-center space-x-2 text-xs tracking-widest group-hover:pl-2 transition-all">
-            <span>探索</span>
-            <ArrowRight className="w-4 h-4" />
-          </div>
         </div>
 
         {/* Category 4 */}
         <div className="relative group h-[400px] md:h-[500px] overflow-hidden cursor-pointer">
-          <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2069&auto=format&fit=crop" alt="Bathroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/images/Cabinetry/7.png" alt="Bathroom" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
-          <div className="absolute top-10 left-10 text-white">
-            <h3 className="text-2xl tracking-widest mb-2 uppercase">浴室</h3>
-            <p className="text-sm font-light">個人化設計，傳統工藝打造</p>
-          </div>
-          <div className="absolute bottom-10 left-10 text-white flex items-center space-x-2 text-xs tracking-widest group-hover:pl-2 transition-all">
-            <span>探索</span>
-            <ArrowRight className="w-4 h-4" />
-          </div>
         </div>
       </section>
 
@@ -146,19 +115,16 @@ export default function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 items-end">
           <div className="relative group aspect-[4/5] overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="Classic" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="/images/138cea.jpg" alt="Classic" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
-            <h3 className="absolute bottom-6 left-6 text-white text-xl tracking-widest uppercase">經典</h3>
           </div>
           <div className="relative group aspect-square overflow-hidden md:-mb-10">
-            <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?q=80&w=2081&auto=format&fit=crop" alt="Transitional" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="/images/882faa.jpg" alt="Transitional" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
-            <h3 className="absolute bottom-6 left-6 text-white text-xl tracking-widest uppercase">過渡風格</h3>
           </div>
           <div className="relative group aspect-[4/5] overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2074&auto=format&fit=crop" alt="Soft Modern" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=800" alt="Soft Modern" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
-            <h3 className="absolute bottom-6 left-6 text-white text-xl tracking-widest uppercase">柔和現代</h3>
           </div>
         </div>
 
@@ -358,7 +324,7 @@ export default function App() {
         
         <div className="container mx-auto relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
-            <h2 className="text-2xl md:text-3xl tracking-widest mb-2 font-light uppercase">ARCTIZ 板材廣泛應用於全屋定制家具：</h2>
+            <h2 className="text-2xl md:text-3xl tracking-widest mb-2 font-light uppercase">ARCTIZ主要應用場景：</h2>
             <p className="text-stone-400 text-sm font-light">
               系統廚櫃： 憑藉其耐高溫與抗油煙特性。
               <br /><br />
